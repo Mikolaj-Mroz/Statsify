@@ -1,4 +1,4 @@
-# spotify-statistics-web-app
+# [spotify-statistics-web-app](http://statsify.eu-central-1.elasticbeanstalk.com/)
 
 THE WEBSITE ISN'T PRODUCTION READY AS I'M WAITING FOR SPOTIFY TO ACCEPT MY REQUEST. NONETHELESS THE WEBSITE WILL BE 100% WORKING WHEN THEY ACCEPT MY REQUEST.
 
@@ -9,7 +9,7 @@ THE WEBSITE ISN'T PRODUCTION READY AS I'M WAITING FOR SPOTIFY TO ACCEPT MY REQUE
 * [Introduction](#introduction)
 * [Technologies](#technologies)
 * [Setup](#setup)
-* [Future](#Future)
+* [Future](#future)
 
 ## Introduction
 
