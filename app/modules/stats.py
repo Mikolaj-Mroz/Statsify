@@ -1,7 +1,8 @@
 import spotipy
 import os
 from flask import session
-from .caching import FlaskSessionCacheHandler, CacheHandler
+from app.modules.caching import FlaskSessionCacheHandler, CacheHandler
+
 
 
 
