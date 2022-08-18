@@ -264,9 +264,14 @@ section div::first-line{
   font-size: 1.2rem;
 }
 
+@media only screen and (min-width: 800px) {
+  .text{
+    width: 800px;
+  }
+}
+
 .text {
   text-align: justify;
-  width: 700px;
   margin: auto;
   color: white;
   background-color: rgba(0,0,0,0.3);
