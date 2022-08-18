@@ -1,0 +1,292 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+
+body{
+  font-family: 'Roboto', sans-serif;
+  background-image: 
+  linear-gradient(to bottom, 
+  rgba(169, 239, 89, 0.5), rgba(149, 204, 99, 0.5), 
+  rgba(129, 171, 105, 0.5), rgba(107, 138, 109, 0.5), 
+  rgba(83, 107, 111, 0.5)), url('https://fajnepodroze.pl/wp-content/uploads/2021/02/kaczki.jpg'); 
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  background-size: cover;
+}
+
+
+.marketing-site-hero {
+  height: 64vh;
+  background-size: cover;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (min-width: 40em) {
+  .marketing-site-hero {
+    background-position: center center;
+  }
+}
+
+.marketing-site-hero-content {
+  max-width: 75rem;
+  margin: 0 auto;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.marketing-site-hero-content h1 {
+  font-size: 10vw;
+}
+
+.marketing-site-hero-content .button.round {
+  border-radius: 5000px;
+  text-transform: uppercase;
+  font-size: 12px;
+  margin-bottom: 0;
+}
+
+
+h1{
+  text-align: center;
+  color:white;
+  font-weight: 900;
+}
+
+.subheader{
+  color: white;
+  font-weight: 400;
+}
+
+/* change */
+
+.ecommerce-footer {
+  padding: 30px 20px 0px 20px;
+}
+
+.ecommerce-footer-links h5 {
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.ecommerce-footer-links .menu > li > a {
+  line-height: 1.5em;
+  padding: 0.5rem 0rem;
+}
+
+.ecommerce-footer-links a {
+  color: white;
+  font-size: 1rem;
+  transition: all 0.5s ease;
+}
+
+.ecommerce-footer-links a:hover {
+  color: white;
+  transition: all 0.5s ease;
+}
+
+.ecommerce-footer-links .more-categories {
+  margin-top: 2rem;
+}
+
+@media screen and (max-width: 39.9375em) {
+  .ecommerce-footer-links .more-categories {
+    margin-top: 2rem;
+  }
+}
+
+@media screen and (max-width: 63.9375em) {
+  .ecommerce-footer-links .ecommerce-footer-links-block {
+    margin-bottom: 3rem;
+  }
+}
+
+.ecommerce-footer-bottom-bar {
+  border-top: 1px solid #e6e6e6;
+}
+
+.ecommerce-footer-bottom-bar .menu > li > a {
+  line-height: 1.2em;
+  padding: 10px 0;
+}
+
+.ecommerce-footer-bottom-bar a {
+  color: white;
+  font-size: 0.9rem;
+  transition: all 0.5s ease;
+}
+
+.ecommerce-footer-bottom-bar a:hover {
+  color: white;
+  transition: all 0.5s ease;
+}
+
+@media screen and (max-width: 39.9375em) {
+  .ecommerce-footer-bottom-bar ul {
+    text-align: center;
+  }
+}
+
+.ecommerce-footer-bottom-bar li {
+  display: inline;
+}
+
+.ecommerce-footer-bottom-bar .bottom-links {
+  margin-top: 0.65rem;
+  margin-left: 0;
+}
+
+.ecommerce-footer-bottom-bar .bottom-links li {
+  padding-right: 2rem;
+}
+
+@media screen and (max-width: 39.9375em) {
+  .ecommerce-footer-bottom-bar .bottom-links li {
+    text-align: center;
+  }
+}
+
+.ecommerce-footer-bottom-bar .ecommerce-footer-logomark {
+  text-align: center;
+}
+
+@media screen and (max-width: 39.9375em) {
+  .ecommerce-footer-bottom-bar .ecommerce-footer-logomark {
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+  }
+}
+
+.ecommerce-footer-bottom-bar .bottom-copyright {
+  color: white;
+  font-size: 0.9rem;
+  line-height: 1.2em;
+  padding-top: 1rem;
+  text-align: right;
+}
+
+@media screen and (max-width: 39.9375em) {
+  .ecommerce-footer-bottom-bar .bottom-copyright {
+    text-align: center;
+  }
+}
+
+.top-bar{
+  background: none;
+  font-weight: 900;
+  font-size: 2vh;
+}
+
+.top-bar-left{
+  background: none;
+}
+
+.top-bar-right{
+  background: none;
+}
+
+.top-bar ul{
+  background: none;
+}
+
+a {
+  color: white;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: white;
+}
+
+a:active {
+  color: white;
+}
+
+.dropdown.menu .submenu {
+  background: none;
+}
+
+.dropdown.menu>li.is-active>a {
+  color: white;
+}
+
+nav {
+  text-align: center;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+.top-bar {
+  display: inline-block;
+}
+
+.dropdown.menu .submenu.js-dropdown-active {
+  border: none;
+}
+
+footer{
+  padding: 96px 0px;
+  font-size: 14px;
+  width: 100%;
+  color:white; 
+  left:0;
+  right:0;
+  margin-left: auto; 
+  margin-right: auto; 
+  background-color: rgba(0,0,0,0.3);
+}
+section{
+  margin: auto;
+  display:flex;
+  justify-content: center;
+}
+section div{
+  flex-basis: 250px;
+  margin-left: 12px;
+  font-size: 1rem;
+}
+
+section div::first-line{
+  font-weight: 900;
+  font-size: 1.2rem;
+}
+
+.text {
+  text-align: justify;
+  width: 700px;
+  margin: auto;
+  color: white;
+  background-color: rgba(0,0,0,0.3);
+  padding: 50px;
+}
+.ranking {
+  text-align: center;
+  width: 380px;
+  margin: auto;
+  color: white;
+  margin-top: 30px;
+  padding: 50px;
+}
+
+.rank{
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  background-color: rgba(0,0,0,0.3);
+}
+
+.rank p{
+  font-weight: 900;
+}

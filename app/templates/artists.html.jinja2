@@ -1,0 +1,12 @@
+{% extends 'base.html.jinja2' %}
+
+{% block content %}
+<div class="ranking">
+  {% for artist in artists %}
+  <div class="rank">
+    <img src={{artist['images'][1]['url']}} width='300'>
+    <p>{{loop.index}}. {{artist['name']}}</p>
+  </div>
+  {% endfor %}
+</div>
+{% endblock %}
