@@ -1,14 +1,12 @@
 import spotipy
 import os
 from flask import session
-from app.modules.caching import FlaskSessionCacheHandler, CacheHandler
-
-
+from .caching import FlaskSessionCacheHandler, CacheHandler
 
 
 
 # set cache handler to flask
-cache_handler = spotipy.cache_handler.FlaskSessionCacheHandler(session)
+cache_handler = FlaskSessionCacheHandler(session)
 # configurate auth_manager
 auth_manager = spotipy.oauth2.SpotifyOAuth(scope='user-top-read',
                                             cache_handler=cache_handler,
